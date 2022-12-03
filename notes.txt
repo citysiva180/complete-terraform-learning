@@ -92,3 +92,5 @@ Declarative vs Imperative : Initialize at first or initialize on demand..
 Agnostic : A single tool or service could be used to any cloud provider
 Specific : A Single tool or service that could only be used to a single cloud provider 
 
+
+
