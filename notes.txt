@@ -1,0 +1,94 @@
+████████╗███████╗██████╗ ██████╗  █████╗ ███████╗ ██████╗ ██████╗ ███╗   ███╗
+╚══██╔══╝██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔═══██╗██╔══██╗████╗ ████║
+   ██║   █████╗  ██████╔╝██████╔╝███████║█████╗  ██║   ██║██████╔╝██╔████╔██║
+   ██║   ██╔══╝  ██╔══██╗██╔══██╗██╔══██║██╔══╝  ██║   ██║██╔══██╗██║╚██╔╝██║
+   ██║   ███████╗██║  ██║██║  ██║██║  ██║██║     ╚██████╔╝██║  ██║██║ ╚═╝ ██║
+   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝
+                                                                             
+##############################################################################
+______________________________________________________________________________
+
+DEVOPS COURSE : Complete Terraform Course 
+SOURCE : YOUTUBE 
+DAILY COMMITS : YES 
+
+
+#=============================================================================#
+|                              INTRODUCTION                                   |
+#=============================================================================#
+
+Introduction : What is terraform? 
+
+Terraform is a tool for 
+
+    - building, 
+    - changing, 
+    - versioning 
+
+Infrastructure
+
+    - safely and 
+    - efficiently 
+
+As per Hashi-Corp, Terraform is known as Infrastructure as code. 
+You build the entire infra by writing code and run it for deployment 
+
+#=============================================================================#
+|                              COURSE OVERVIEW                                |
+#=============================================================================#
+
+Course overview : 
+
+- Evolution of Cloud infrastructure 
+- Terraform Overview + Setup 
+- Basic Terraform Usage 
+- Variables and Outputs 
+- Language Features 
+- Project Organization + Modules 
+- Managing multiple environments 
+- Testing Terraform code 
+- Developer Workflows
+
+#=============================================================================#
+|                     Evolution of Cloud Infrastructure                       |
+#=============================================================================#
+
+- Tech in the 90s requires costly equipments to run your own data center. 
+- It was much harder to get started in running applications 
+- This shifted in the 2010s.. where cloud came into picture. 
+- This helped people to have on demand cloud servers. 
+
+What changed..? 
+
+- Infrastructure is provided via API 
+- Servers created and destroyed in seconds 
+- Infra was long lived + Mutable but now its short lived and immutable!
+
+Three main approaches are used for provisioning cloud resources 
+
+- Use the GUI 
+- Use the API | Write script 
+- Use the Infrastructure as Code 
+
+
+#=============================================================================#
+|                     What is Infrastructure as CODE                          |
+#=============================================================================#
+
+Categories of IaC tools : 
+
+ 1 - Adhoc Scripts 
+ 2 - Configuration management tools 
+ 3 - Server Templating tools 
+ 4 - orchestration tools -  Kubernetes 
+ 5 - Provisioning Tools 
+
+Declarative vs Imperative : Initialize at first or initialize on demand.. 
+
+#=============================================================================#
+|                     What is Cloud Agnostic vs Cloud Specific                |
+#=============================================================================#
+
+Agnostic : A single tool or service could be used to any cloud provider
+Specific : A Single tool or service that could only be used to a single cloud provider 
+
